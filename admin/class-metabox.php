@@ -11,6 +11,9 @@ class Metabox {
 
 	private function init_links() {
 		$this->links['Facebook Wall'] = '&utm_source=facebook&utm_medium=matteus-wall';
+		$this->links['Facebook Page'] = '&utm_source=facebook&utm_medium=page';
+		$this->links['Twitter'] = '&utm_source=twitter&utm_medium=matteus';
+		$this->links['Instagram'] = '&utm_source=instagram&utm_medium=matteus';
 		$this->links['Whatsapp CLW'] = '&utm_source=whatsapp&utm_medium=clw';
 		$this->links['Newsletter Image'] = '&utm_source=newsletter&utm_medium=image';
 		$this->links['Newsletter Text'] = '&utm_source=newsletter&utm_medium=text';
